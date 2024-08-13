@@ -1,0 +1,69 @@
+.userTable{
+    width: 60%;
+    background-color: white;
+    box-shadow: 1px 1px 8px rgba(31, 30, 30, 0.6);
+    border-radius: 5px;
+    margin: 100px auto;
+    padding: 50px;
+}
+.addButton{
+    text-decoration: none;
+    background-color: rgb(3, 100, 43);
+    color: white;
+    font-weight: 500;
+    box-shadow: 1px 1px 8px rgba(31, 30, 30, 0.6);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.addButton:hover{
+    background-color: rgb(5, 172, 74);
+}
+
+.userTable table{
+    width: 100%;
+    margin-top: 30px;
+    border-collapse: collapse;
+
+}
+
+.userTable table thead th{
+    background-color: rgb(37, 37, 41);
+    color: white;
+    padding: 10px;
+}
+.userTable table tbody td{ 
+    padding: 10px; 
+    text-align: center;
+    
+}
+
+.actionBtn button{
+    
+    border: 0;
+    outline: none;
+    background-color: rgb(180, 5, 5);
+    padding: 8px 10px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.actionBtn button:hover{
+    background: rgb(247, 17, 17);
+}
+
+/* for Link a tag is used */
+.actionBtn a{
+    text-decoration: none;
+    background: rgb(3, 3, 148);
+    padding: 7px 15px;
+    color: white;
+    border-radius: 5px;
+
+}
+
+.actionBtn a:hover{
+    background: rgb(53, 53, 241);
+}
