@@ -1,7 +1,8 @@
 import User from "../model/userModel.js";
 
-// Creating APIs
+// Creating all APIs
 
+// C - Create
 export const create = async(req,res)=>{
     try{
 
@@ -21,6 +22,7 @@ export const create = async(req,res)=>{
     }
 }
 
+// R - Read Data 
 export const getAll = async(req,res) =>{
     try{
 
@@ -57,6 +59,8 @@ export const getOne = async(req,res) => {
 }
 
 
+// U - Update 
+
 export const update = async(req,res)=>{
     try{
         // here we get the id 
@@ -76,6 +80,7 @@ export const update = async(req,res)=>{
     }
 }
 
+// D - Delete 
 
 export const deleteUser = async(req,res)=>{
 
